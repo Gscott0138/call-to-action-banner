@@ -11,14 +11,68 @@ body {
   margin: 0;
 }
 
-.banner img {
-  margin: 0;
-  width: 100%;
-  max-width: 45em;
+.banner {
+  font-family: Roboto, sans-serif;
 }
 
-.img-flex img {
-  display: flex;
+.img-banner {
+  position: absolute;
+  max-height: 500px;
+  overflow: hidden;
   width: 100%;
-  max-height: 100px;
+}
+
+.img-flex {
+  width: 100%;
+  max-width: 45em;
+  position: relative;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+  max-width: 45em;
+  align-items: center;
+  left: 50%;
+  top: 0;
+  bottom: 2em;
+  margin: 0;
+}
+
+.banner-text h2 {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+.banner-text p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  background-color: #333;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #333;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
