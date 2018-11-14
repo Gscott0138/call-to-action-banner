@@ -24,7 +24,6 @@ body {
 .img-flex {
   width: 100%;
   display: block;
-  transform: translateX(15%);
 }
 
 .banner-content {
@@ -40,6 +39,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   text-align: left;
+  transform: translateX(0);
 }
 
 .banner-text h2, p {
