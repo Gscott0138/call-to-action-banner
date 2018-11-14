@@ -12,47 +12,31 @@ body {
 }
 
 .banner {
-  font-family: Roboto, sans-serif;
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .img-banner {
-  position: absolute;
-  max-height: 500px;
-  overflow: hidden;
   width: 100%;
 }
 
 .img-flex {
   width: 100%;
-  max-width: 45em;
-  position: relative;
   display: block;
 }
 
-.banner-text {
+.banner-content {
   position: absolute;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  width: 50%;
-  max-width: 45em;
+  justify-content: flex-start;
   align-items: center;
-  left: 50%;
-  top: 0;
-  bottom: 2em;
-  margin: 0;
-}
-
-.banner-text h2 {
-  margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 3rem;
-}
-
-.banner-text p {
-  margin: 0;
+  display: flex;
+  max-width: 45em;
+  font-family: Roboto, sans-serif;
   font-size: 1.5rem;
+}
+
+.banner-text h2, p {
+  margin: 0;
 }
 
 .btn {
