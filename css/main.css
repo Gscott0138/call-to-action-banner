@@ -28,6 +28,8 @@ body {
 
 .banner-content {
   position: absolute;
+  left: 0;
+  top: 0;
   justify-content: flex-start;
   align-items: center;
   display: flex;
