@@ -23,6 +23,7 @@ body {
 .img-flex {
   width: 100%;
   display: block;
+  transform: translateX(15%);
 }
 
 .banner-content {
@@ -37,6 +38,11 @@ body {
 
 .banner-text h2, p {
   margin: 0;
+}
+
+.banner-text h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
 }
 
 .btn {
