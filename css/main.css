@@ -28,6 +28,7 @@ body {
 }
 
 .banner-content {
+  margin-top: 25px;
   width: 100%;
   position: absolute;
   left: 0;
@@ -52,12 +53,13 @@ body {
 }
 
 .btn {
+  margin-top: 22px;
   display: inline-block;
   padding: .4em .75em .3em;
   background-color: #333;
   border-radius: 8px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 6px;
   border-color: #333;
   font-size: 1.5rem;
   color: #fff;
